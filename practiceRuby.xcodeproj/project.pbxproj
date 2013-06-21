@@ -14,6 +14,7 @@
 		614F6CD11774234E00DA5B14 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614F6CCF1774234E00DA5B14 /* MainMenu.xib */; };
 		614F6CD41774234E00DA5B14 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 614F6CD31774234E00DA5B14 /* rb_main.rb */; };
 		614F6CD61774234E00DA5B14 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 614F6CD51774234E00DA5B14 /* AppDelegate.rb */; };
+		614F6CE0177432B000DA5B14 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 614F6CDF177432B000DA5B14 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		614F6CD01774234E00DA5B14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		614F6CD31774234E00DA5B14 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		614F6CD51774234E00DA5B14 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		614F6CDF177432B000DA5B14 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		614F6CB21774234E00DA5B14 = {
 			isa = PBXGroup;
 			children = (
+				614F6CDF177432B000DA5B14 /* README.md */,
 				614F6CC51774234E00DA5B14 /* practiceRuby */,
 				614F6CBD1774234E00DA5B14 /* Frameworks */,
 				614F6CBC1774234E00DA5B14 /* Products */,
@@ -189,6 +192,7 @@
 				614F6CD11774234E00DA5B14 /* MainMenu.xib in Resources */,
 				614F6CD41774234E00DA5B14 /* rb_main.rb in Resources */,
 				614F6CD61774234E00DA5B14 /* AppDelegate.rb in Resources */,
+				614F6CE0177432B000DA5B14 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
