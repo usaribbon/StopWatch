@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		614F6CBF1774234E00DA5B14 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614F6CBE1774234E00DA5B14 /* Cocoa.framework */; };
+		614F6CC11774234E00DA5B14 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614F6CC01774234E00DA5B14 /* MacRuby.framework */; };
+		614F6CCA1774234E00DA5B14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 614F6CC81774234E00DA5B14 /* InfoPlist.strings */; };
+		614F6CCC1774234E00DA5B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 614F6CCB1774234E00DA5B14 /* main.m */; };
+		614F6CD11774234E00DA5B14 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614F6CCF1774234E00DA5B14 /* MainMenu.xib */; };
+		614F6CD41774234E00DA5B14 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 614F6CD31774234E00DA5B14 /* rb_main.rb */; };
+		614F6CD61774234E00DA5B14 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 614F6CD51774234E00DA5B14 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		614F6CC31774234E00DA5B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 614F6CB31774234E00DA5B14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614F6CBA1774234E00DA5B14;
+			remoteInfo = practiceRuby;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		614F6CBB1774234E00DA5B14 /* practiceRuby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practiceRuby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		614F6CBE1774234E00DA5B14 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		614F6CC01774234E00DA5B14 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		614F6CC71774234E00DA5B14 /* practiceRuby-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "practiceRuby-Info.plist"; sourceTree = "<group>"; };
+		614F6CC91774234E00DA5B14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		614F6CCB1774234E00DA5B14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		614F6CCD1774234E00DA5B14 /* practiceRuby-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "practiceRuby-Prefix.pch"; sourceTree = "<group>"; };
+		614F6CD01774234E00DA5B14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		614F6CD31774234E00DA5B14 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		614F6CD51774234E00DA5B14 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		614F6CB81774234E00DA5B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614F6CBF1774234E00DA5B14 /* Cocoa.framework in Frameworks */,
+				614F6CC11774234E00DA5B14 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		614F6CB21774234E00DA5B14 = {
+			isa = PBXGroup;
+			children = (
+				614F6CC51774234E00DA5B14 /* practiceRuby */,
+				614F6CBD1774234E00DA5B14 /* Frameworks */,
+				614F6CBC1774234E00DA5B14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		614F6CBC1774234E00DA5B14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				614F6CBB1774234E00DA5B14 /* practiceRuby.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		614F6CBD1774234E00DA5B14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				614F6CBE1774234E00DA5B14 /* Cocoa.framework */,
+				614F6CC01774234E00DA5B14 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		614F6CC51774234E00DA5B14 /* practiceRuby */ = {
+			isa = PBXGroup;
+			children = (
+				614F6CD51774234E00DA5B14 /* AppDelegate.rb */,
+				614F6CCE1774234E00DA5B14 /* Resources */,
+				614F6CD21774234E00DA5B14 /* Other Sources */,
+				614F6CC61774234E00DA5B14 /* Supporting Files */,
+			);
+			path = practiceRuby;
+			sourceTree = "<group>";
+		};
+		614F6CC61774234E00DA5B14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				614F6CC71774234E00DA5B14 /* practiceRuby-Info.plist */,
+				614F6CC81774234E00DA5B14 /* InfoPlist.strings */,
+				614F6CCB1774234E00DA5B14 /* main.m */,
+				614F6CCD1774234E00DA5B14 /* practiceRuby-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		614F6CCE1774234E00DA5B14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				614F6CCF1774234E00DA5B14 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		614F6CD21774234E00DA5B14 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				614F6CD31774234E00DA5B14 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		614F6CC21774234E00DA5B14 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 614F6CDC1774234E00DA5B14 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				614F6CC41774234E00DA5B14 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		614F6CBA1774234E00DA5B14 /* practiceRuby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614F6CD91774234E00DA5B14 /* Build configuration list for PBXNativeTarget "practiceRuby" */;
+			buildPhases = (
+				614F6CB71774234E00DA5B14 /* Sources */,
+				614F6CB81774234E00DA5B14 /* Frameworks */,
+				614F6CB91774234E00DA5B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = practiceRuby;
+			productName = practiceRuby;
+			productReference = 614F6CBB1774234E00DA5B14 /* practiceRuby.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		614F6CB31774234E00DA5B14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = usaribbon;
+			};
+			buildConfigurationList = 614F6CB61774234E00DA5B14 /* Build configuration list for PBXProject "practiceRuby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 614F6CB21774234E00DA5B14;
+			productRefGroup = 614F6CBC1774234E00DA5B14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				614F6CBA1774234E00DA5B14 /* practiceRuby */,
+				614F6CC21774234E00DA5B14 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		614F6CB91774234E00DA5B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614F6CCA1774234E00DA5B14 /* InfoPlist.strings in Resources */,
+				614F6CD11774234E00DA5B14 /* MainMenu.xib in Resources */,
+				614F6CD41774234E00DA5B14 /* rb_main.rb in Resources */,
+				614F6CD61774234E00DA5B14 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		614F6CB71774234E00DA5B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614F6CCC1774234E00DA5B14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		614F6CC41774234E00DA5B14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 614F6CBA1774234E00DA5B14 /* practiceRuby */;
+			targetProxy = 614F6CC31774234E00DA5B14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		614F6CC81774234E00DA5B14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				614F6CC91774234E00DA5B14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		614F6CCF1774234E00DA5B14 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				614F6CD01774234E00DA5B14 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		614F6CD71774234E00DA5B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		614F6CD81774234E00DA5B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		614F6CDA1774234E00DA5B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "practiceRuby/practiceRuby-Prefix.pch";
+				INFOPLIST_FILE = "practiceRuby/practiceRuby-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		614F6CDB1774234E00DA5B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "practiceRuby/practiceRuby-Prefix.pch";
+				INFOPLIST_FILE = "practiceRuby/practiceRuby-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		614F6CDD1774234E00DA5B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		614F6CDE1774234E00DA5B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		614F6CB61774234E00DA5B14 /* Build configuration list for PBXProject "practiceRuby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614F6CD71774234E00DA5B14 /* Debug */,
+				614F6CD81774234E00DA5B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614F6CD91774234E00DA5B14 /* Build configuration list for PBXNativeTarget "practiceRuby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614F6CDA1774234E00DA5B14 /* Debug */,
+				614F6CDB1774234E00DA5B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		614F6CDC1774234E00DA5B14 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614F6CDD1774234E00DA5B14 /* Debug */,
+				614F6CDE1774234E00DA5B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 614F6CB31774234E00DA5B14 /* Project object */;
+}
