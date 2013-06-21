@@ -1,6 +1,4 @@
 #MacRubyでストップウォッチ
 
-*practiceRuby/AppDelegate.rb
-**メソッドとか書いてある
-*practiceRuby/Resources/MainMenu.xlb
-**GUI
+*  practiceRuby/AppDelegate.rbメソッドとか書いてある
+*  practiceRuby/Resources/MainMenu.xlb GUI
