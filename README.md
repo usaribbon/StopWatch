@@ -1,5 +1,6 @@
-#MacRubyでストップウォッチ
 
-##だいじなファイル
-*  practiceRuby/AppDelegate.rb…メソッドとか書いてある
-*  practiceRuby/Resources/MainMenu.xlb…GUI
+# StopWatch using MacRuby
+
+## main files
+* program detail - practiceRuby/AppDelegate.rb
+* GUI - practiceRuby/Resources/MainMenu.xlb
